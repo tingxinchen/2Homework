@@ -143,12 +143,12 @@ int main() {
 }
 ```
 ##效能分析
-時間複雜度：
-push:O(log n)
-pop:O(log n)
-top:O(1)
-空間複雜度：
-O(n) 使用陣列
+*時間複雜度：
+*push:O(log n)
+*pop:O(log n)
+*top:O(1)
+*空間複雜度：
+*O(n) 使用陣列
 
 ## 測試與驗證
 
