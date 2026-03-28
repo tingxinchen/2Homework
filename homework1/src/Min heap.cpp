@@ -25,10 +25,14 @@ public:
         return size == 0;
     }
     const T& Top() const override {
-        return  heap[0];
+         if (IsEmpty()) {
+        cout << "Heap is empty!" << endl;
+        exit(1);  
+        }
+    return heap[0];
     }
     void Push(const T& data) override {
-        if (size < 100) {
+        if (size < 1000) {
             heap[size] = data;
             int i = size;
             size++;
